@@ -1,0 +1,552 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+   min-width: 100%;
+}
+.navbar-brand span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A0A08;
+    line-height: 40px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+#myNavbar ul li a
+{
+    color: #0A0A08 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+main{
+    position: absolute;
+    width: 100% !important;
+    background-color: #171717;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+main section{
+    margin-top:4rem;
+}
+.shoes-hero-sec
+{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.shoe-hero-img
+{
+    height: 100vh;
+    width: 100%;
+}
+.shoe-hero-img img{
+    height:100vh;
+    width: 100%;
+    object-fit:cover;
+    object-position:bottom;
+}
+.shoe-hero-btn
+{
+    position: absolute;
+    top: 20%;
+    left:8%;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border: none;
+    padding: 1rem;
+}
+.shoe-hero-btn::before,
+.shoe-hero-btn::after
+{
+    position: absolute;
+  width: 350px;
+  height: 50px;
+  content: "";
+}
+.shoe-hero-btn::before
+{
+    right: 0;
+  top: 0;
+  border-right: 4px solid white;
+  border-top: 4px solid white;
+}
+.shoe-hero-btn::after
+{
+    left: 0;
+  bottom: 0;
+  border-left: 4px solid white;
+  border-bottom: 4px solid white;
+}
+.shoe-hero-btn p{
+    color: white;
+    margin: 0;
+}
+.shoe-hero-btn p:nth-child(1)
+{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.shoe-hero-btn p:nth-child(2)
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.shoe-hero-btn p:nth-child(3)
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.shoe-hero-btn p:nth-child(4){
+    background-color: #0A0A08;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 250px;
+    cursor: pointer;
+    z-index: 99;
+    font-weight: 500;
+}
+.shoe-offer
+{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.shoe-card-con
+{
+    width: 100%;
+    height: 100%;
+}
+.shoe-off-card
+{
+    border-radius: 20px !important;
+    overflow: hidden;
+    margin:1rem 0;
+    background-color: transparent !important;
+}
+.shoe-off-card img{
+    object-fit: cover;
+}
+.shoe-off-card .off-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.off-text p
+{
+    color:white;
+    font-weight: 500;
+}
+.off-text p:nth-child(1)
+{
+    font-size: 1.7rem;
+}
+.off-text p:nth-child(2)
+{
+    font-size: 2.3rem;
+    font-weight: 900;
+    text-wrap: nowrap;
+}
+.featured-items-con
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 1rem;
+}
+.fi-txt
+{
+    color: white;
+    text-align: center;
+}
+.fi-txt h3{
+    font-weight: 500;
+    font-size: 3rem;
+}
+.fi-txt p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.f-item-card
+{
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+.f-item-card .fi-shoe-c
+{
+    height: 400px;
+    overflow: hidden;
+    background-color: #171717;
+    color: white;
+    border-radius: 10px;
+    margin:1rem 0;
+}
+.f-item-card .fi-shoe-c img{
+    background-color: white;
+    height: 280px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.fi-shoe-c .card-info
+{
+    font-size: 1rem;
+    padding:0.5rem 0;
+}
+.fi-shoe-c .badge
+{
+    background-color: #CBFB45;
+    color: #0A0A08;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top:3%;
+    left:5%;
+}
+.fi-shoe-c .card-info p
+{
+    margin: 0;
+    padding: 0.2rem 0;
+}
+.fi-shoe-c .card-info p:nth-child(1)
+{
+    color: #636363;
+}
+.fi-shoe-c .card-info p:nth-child(2)
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.fi-shoe-c .card-info p:nth-child(3)
+{
+    color: #9E9E9E;
+}
+.fi-shoe-c .card-info p:nth-child(3) span
+{
+    text-decoration: line-through;
+}
+.shoe-hg-off
+{
+    width: 100%;
+    height: 100%;
+}
+.shoe-hg-con{
+    padding:0 2rem;
+    overflow: hidden;
+}
+.shoe-hg-off .row
+{
+    background-color: #CBCBCB;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.shoe-hg-img
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.shoe-hg-img img
+{
+    object-position: center;
+}
+.partiall-border
+{
+    width:500px;
+    height: 330px;
+    position: absolute;
+    top:12%;
+    overflow: hidden;
+}
+.partiall-border::before,
+.partiall-border::after{
+    content: "";
+    width: 500px;
+    height: 75px;
+    position: absolute;
+}
+.partiall-border::before
+{
+    right: 0;
+  top: 0;
+  border-right: 5px solid #939393;
+  border-top: 5px solid #939393;
+}
+.partiall-border::after
+{
+    left: 0;
+  bottom: 0;
+  border-left: 5px solid #939393;
+  border-bottom: 5px solid #939393;
+}
+.shoe-hg-text
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.shoe-hg-text p:nth-child(1)
+{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.shoe-hg-text p:nth-child(2)
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.shoe-hg-text p:nth-child(3)
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shoe-hg-text a
+{
+    background-color: #171717;
+    color: white !important;
+    width: 250px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.hg-points
+{
+    padding:0.5rem 1rem;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+}
+.hg-points .row
+{
+    padding:0 2rem;
+}
+
+.hgp-c {
+    margin: 0.5rem 0;
+    color: white !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #171717 !important;
+}
+
+.hgp-c p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* .hgp-c::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width:3px;
+    height:100%;
+} */
+.hgp-c i{
+    padding:0 0.5rem;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.hgp-c .xm
+{
+    font-size: 0.9rem;
+    padding: 0 0.2rem;
+}
+.shoe-best-sell
+{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bs-s-head
+{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.bs-s-head p{
+    font-size:1rem;
+}
+.shoe-bs-con
+{
+    padding:0 1rem;
+}
+.sbs-c
+{
+    margin:1rem 0;
+    min-height: 400px;
+    width: 100%;
+    background-color: #171717 !important;
+    cursor: pointer;
+}
+.sbs-c img{
+    min-height: 300px;
+    object-fit: contain;
+    background-color:white;
+    border-radius: 10px;
+}
+.sbs-c .card-info
+{
+    font-size: 1rem;
+    padding:0.5rem 0;
+}
+.sbs-c .badge
+{
+    background-color: #CBFB45;
+    color: #0A0A08;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top:3%;
+    left:5%;
+}
+.sbs-c .card-info p
+{
+    margin: 0;
+    padding: 0.2rem 0;
+    color: white;
+}
+.sbs-c .card-info p:nth-child(1)
+{
+    color: #636363;
+}
+.sbs-c .card-info p:nth-child(2)
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.sbs-c .card-info p:nth-child(3)
+{
+    color: #9E9E9E;
+}
+.sbs-c .card-info p:nth-child(3) span
+{
+    text-decoration: line-through;
+}
+.shoe-n-off
+{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.shoe-n-off .shoe-noff
+{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.noff-c
+{
+    width: 100%;
+    height:400px;
+    background-color: transparent !important;
+    border-radius: 20px;
+    overflow: hidden;
+    margin:1rem 0;
+}
+.noff-c img{
+    height: 400px;
+    object-fit: cover;
+}
+.noff-c span{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+    font-weight: 600;
+}
+.noff-c span p{
+    font-weight: 200;
+}
+.client-feedback-sec
+{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+.feedback-text
+{
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.feed-con
+{
+    width: 100%;
+    height: 100%;
+    padding:0 2rem;
+}
+.feed-card
+{
+    border: 1px solid #939393 !important;
+    background-color: #171717 !important;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row !important;
+    margin :1rem 0;
+    height: 180px !important;
+}
+.feed-card img{
+    background-color: #D9D9D9;
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    margin:0 1rem;
+}
+.feed-card .card-info
+{
+    width: 75%;
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+}
+.feed-card .card-info span{
+    color: #CBFB45;
+    font-style: normal;
+    font-weight: 400;
+}
+@media (max-width: 1000px) 
+{
+    .shoe-hero-btn {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
