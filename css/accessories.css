@@ -1,0 +1,352 @@
+*
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+   min-width: 100%;
+}
+.navbar-brand span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A0A08;
+    line-height: 40px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+#myNavbar ul li a
+{
+    color: #0A0A08 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+main{
+    position: absolute;
+    width: 100% !important;
+    background-color: #171717;
+    padding: 0 !important;
+    overflow: hidden;
+}
+main section{
+    margin-top:4rem;
+}
+.accessories-hero-sec
+{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.accessories-hero-img
+{
+    height: 90vh;
+    width: 100%;
+}
+.accessories-hero-img img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+}
+.accessories-hero-btn
+{
+    position: absolute;
+    z-index: 99;
+    top:30%;
+    left:65%;
+    font-size:2rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1rem;
+}
+.accessories-hero-btn p a
+{
+    background-color: #171717;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 500;
+    padding:0.2rem 2rem;
+    margin: 0;
+    cursor: pointer;
+}
+.accessories-string
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.accessories-string .string-head
+{
+    text-align: center;
+    color: white;
+}
+.string-head h2{
+    color: #CBFB45;
+}
+.string-con
+{
+    width: 100%;
+    padding:1rem;
+}
+.str-card
+{
+    width: 100%;
+    overflow: hidden;
+    height: 400px !important;
+    background-color: #171717 !important;
+    cursor: pointer;
+    margin:1rem 0;
+}
+.str-card .string-img{
+    height:300px !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.string-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.str-card .badge
+{
+    background-color: #CBFB45;
+    color: #0A0A08;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top:3%;
+    left:5%;
+}
+.str-card .card-info
+{
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
+.str-card .card-info p{
+    padding: 0;
+    margin: 0;
+}
+.str-card .card-info p:nth-child(2)
+{
+    color: #9E9E9E;
+}
+.str-card .card-info p:nth-child(2) span
+{
+    text-decoration: line-through;
+}
+.str-card .card-info p:nth-child(3)
+{
+    font-size: 0.8rem;
+    color: #636363;
+}
+.bag-hero-section
+{
+    width: 100%;
+    padding: 1rem;
+}
+.bag-hero-section .bag-con
+{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.bag-r
+{
+    padding: 1rem;
+}
+.bag-img
+{
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.bag-img img{
+    height: 400px;
+}
+.bag-hero-btn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.bag-hero-btn p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.bag-hero-btn h5{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.bag-hero-btn p:nth-child(2)
+{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.bag-hero-btn p:nth-child(3)
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.bag-hero-btn p:nth-child(4) {
+    background-color: #171717;
+    padding:0.2rem 5rem;
+    color: white !important;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.accessories-kits
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.accessories-kits .kits-head
+{
+    text-align: center;
+    color: white;
+}
+.kits-head h2{
+    color: #CBFB45;
+}
+.kits-con
+{
+    width: 100%;
+    padding:1rem;
+}
+.kits-card
+{
+    width: 100%;
+    overflow: hidden;
+    height: 400px !important;
+    background-color: #171717 !important;
+    cursor: pointer;
+    margin:1rem 0;
+}
+.kits-card .kits-img{
+    height:300px !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.kits-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.kits-card .badge
+{
+    background-color: #CBFB45;
+    color: #0A0A08;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top:3%;
+    left:5%;
+}
+.kits-card .card-info
+{
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
+.kits-card .card-info p{
+    padding: 0;
+    margin: 0;
+}
+.kits-card .card-info p:nth-child(2)
+{
+    color: #9E9E9E;
+}
+.kits-card .card-info p:nth-child(2) span
+{
+    text-decoration: line-through;
+}
+.kits-card .card-info p:nth-child(3)
+{
+    font-size: 0.8rem;
+    color: #636363;
+}
+.client-feedback-sec
+{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+.feedback-text
+{
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.feedback-text h2{
+    color: #CBFB45;
+}
+.feedback-text p{
+    text-align: justify;
+}
+.feed-con
+{
+    width: 100%;
+    height: 100%;
+    padding:0 2rem;
+}
+.feed-card
+{
+    border: 1px solid #939393 !important;
+    background-color: #171717 !important;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row !important;
+    margin :1rem 0;
+    cursor: pointer;
+}
+.feed-card img{
+    background-color: #D9D9D9;
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    margin:0 1rem;
+}
+.feed-card .card-info
+{
+    width: 75%;
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+}
+.feed-card .card-info span{
+    color: #CBFB45;
+    font-style: normal;
+    font-weight: 400;
+}
+@media (max-width: 1000px) 
+{
+    .accessories-hero-btn {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align:left;
+    }
+    .accessories-hero-btn p a
+    {
+        text-wrap: nowrap;
+    }
+}

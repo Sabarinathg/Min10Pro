@@ -520,7 +520,6 @@ main section{
     display: flex;
     flex-direction: row !important;
     margin :1rem 0;
-    height: 180px !important;
 }
 .feed-card img{
     background-color: #D9D9D9;
