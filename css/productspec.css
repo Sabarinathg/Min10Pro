@@ -494,7 +494,7 @@ main{
     content: "";
     position: absolute;
     width: 97%;
-    height: 3px;
+    height: 1px;
     background-color: white;
     margin: -1rem 0;
     margin-right:1rem;
